@@ -1,0 +1,10 @@
+body{
+  width: 710px;
+  margin: 0px auto;
+}
+img{
+  width: 125px;
+  height: auto;
+  display: inline-block;
+  margin: 15px;
+}

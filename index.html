@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="Disappearing Ninja" content="jQuery practice on images">
+  <title>jQuery Disappearing Ninja</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('img').click(function(){
+        $(this).fadeOut('slow');
+      });
+      $('button').click(function(){
+        location.reload();
+      });
+    });
+  </script>
+</head>
+<body>
+  <h1>The Disappearing Ninjas</h1>
+  <div id="container">
+    <img src="ninja1.png" alt="Ninja Image">
+    <img src="ninja2.png" alt="Ninja Image">
+    <img src="ninja3.png" alt="Ninja Image">
+    <img src="ninja4.png" alt="Ninja Image">
+    <img src="ninja5.png" alt="Ninja Image">
+    <img src="ninja6.png" alt="Ninja Image">
+    <img src="ninja7.png" alt="Ninja Image">
+    <img src="ninja8.png" alt="Ninja Image">
+  </div>
+  <button>Bring them back!</button>
+</body>
+</html>
